@@ -169,6 +169,15 @@
     align-items: center;
     justify-content: center;
 }
+.client-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.client-items img{
+    width: 121px;
+}
 
 /* uitility classes */
 .h-primary {
