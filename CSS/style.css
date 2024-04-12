@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 /* CSS Variables */
@@ -81,10 +81,11 @@
 #home {
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
+    padding: 3px 65px;
     height: 491px;
     justify-content: center;
     align-items: center;
+    /* width: 100%; */
 
 }
 
@@ -148,7 +149,8 @@
 }
 
 #services .box img {
-    height: 121px;
+    /* height: 121px; */
+    width: 155px;
     display: block;
     margin: auto;
     padding: 7px;
@@ -164,11 +166,11 @@
 #client-section {
     
 }
-#clients{
+/* #clients{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 .client-items{
     display: flex;
     justify-content: center;
@@ -194,4 +196,9 @@
 
 .center {
     text-align: center;
+}
+
+@media screen and (max-width:700px) {
+   
+    
 }
